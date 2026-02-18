@@ -1,13 +1,17 @@
 # Codebase for Historically grounded interpretations of well-below 2C avoiding accidental backsliding
 
-This collection of notebooks produces the figures and tables in the paper "Historically grounded interpretations of well-below 2oC avoiding accidental backsliding". 
+This collection of notebooks produces the figures and tables in the paper "Historically grounded interpretations of well-below 2C avoiding accidental backsliding". 
 
 It requires two files to be put into the "input" folder, 
 AR6_Scenarios_Database_metadata_indicators_v1.1.xlsx, which can be downloaded from https://data.ene.iiasa.ac.at/ar6/
 and iamc15_scenario_data_all_regions_r2.0.xlsx, which can be downloaded from https://data.ene.iiasa.ac.at/iamc-1.5c-explorer/.
 
+The notebooks can then be run in any order. SketchProbabilityDistributions.ipynb produces the sketches, MapExceedanceProbToMedianWarming.ipynb produces the numerical results in the paper. 
+
 ## Dependencies:
+Tested on python 3.7.11.
 Primary dependencies are:
 - pyam-iamc>=1.9.0
 - matplotlib-label-lines>=0.7.0
 - scipy>=1.10.1
+
